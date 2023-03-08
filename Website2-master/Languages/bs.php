@@ -32,6 +32,7 @@
         "loginUsername" => "Napište vaše korisničko ime",
         "loginPassword" => "Napište vašu šifru",
         "loginLogin" => "Prijavite se",
+        "logout" => "Odjavite se",
         "upload"=> "Učitaj",
         "uploadHtwo"=>"Učitajte svoje datoteke",
         "selectFiles" => "Odaberite svoje datoteke",

@@ -28,3 +28,4 @@ INSERT INTO `products` (`ProductID`, `ProductName`, `ProductPrice`, `ProductImag
 
 
 INSERT INTO `users` (`UserID`, `UserName`, `UserPassword`) VALUES(' ', 'jj', 2323);
+INSERT INTO `users` (`UserID`, `UserName`, `UserPassword`) VALUES(' ', 'mm', 1111);

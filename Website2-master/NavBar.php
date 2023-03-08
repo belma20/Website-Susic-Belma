@@ -17,7 +17,7 @@ $currentPage = basename($_SERVER['PHP_SELF'], ".php");
 
 
 
-    if(isset($_SESSION["logged"])){
+    if(!isset($_SESSION["logged"])){
         $_SESSION["logged"]= false;
         $_SESSION["user"]= "not logged in"; 
     }
@@ -30,7 +30,7 @@ $currentPage = basename($_SERVER['PHP_SELF'], ".php");
 
 
         session_unset();
-        sesstion_destroy();
+        session_destroy();
         header("Location: Login.php");
     }
 
@@ -42,7 +42,7 @@ $db="MyShop";
 $Connection= mysqli_connect($Host, $User, $Psw, $db);
 
 $GiveMeProduct= $Connection->prepare("SELECT * FROM products");
-$GiveMeUser= $Connection->prepare("SELECT * FROM products");
+$GiveMeUser= $Connection->prepare("SELECT * FROM users");
 
 
 

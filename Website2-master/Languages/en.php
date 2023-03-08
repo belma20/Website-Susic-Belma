@@ -32,6 +32,7 @@
         "loginUsername" => "Type your Username",
         "loginPassword" => "Type your password",
         "loginLogin" => "Login",
+        "logout" => "LogOUT",
         "upload"=> "Uplaod",
         "uploadHtwo" => "Upload Your Files",
         "selectFiles"=> "Select Your Files",
